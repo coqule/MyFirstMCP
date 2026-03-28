@@ -21,4 +21,7 @@ public static class EchoTools
     [McpServerTool, Description("Devuelve el mensaje invertido")]
     public static string Reverse(string message)
         => new([.. message.ToUpper().Reverse()]);
+
+    [McpServerTool, Description("Devuelve la altura de margarito")]
+    public static string GetMargaritoHeight() => "Margarito medía 1.15 metros y eso cuando usaba sombrero.";
 }
