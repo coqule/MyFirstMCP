@@ -1,39 +1,39 @@
 # MyFirstMCP
 
-A .NET 10 Model Context Protocol (MCP) Server implementation with stdio transport.
+Implementación de un servidor Model Context Protocol (MCP) en .NET 10 con transporte stdio.
 
-## Features
+## Características
 
-- **Echo Tool**: Returns a greeting with the input message
-- **Reverse Tool**: Returns the input message in uppercase and reversed
+- **Herramienta Echo**: Devuelve un saludo con el mensaje de entrada
+- **Herramienta Reverse**: Devuelve el mensaje de entrada en mayúsculas e invertido
 
-## Requirements
+## Requisitos
 
 - .NET 10
 - C# 14.0
 
-## Running the Server
+## Ejecutar el servidor
 
 ```bash
 dotnet run
 ```
 
-The server will start and listen for MCP protocol messages via standard input/output.
+El servidor se iniciará y escuchará mensajes del protocolo MCP a través de entrada/salida estándar.
 
-## Tools Available
+## Herramientas disponibles
 
 ### Echo
 ```
-Echo(message: string) → string
+Echo(mensaje: string) → string
 ```
-Returns: "Hola " + message
+Retorna: "Hola " + mensaje
 
 ### Reverse
 ```
-Reverse(message: string) → string
+Reverse(mensaje: string) → string
 ```
-Returns the uppercase reversed message
+Retorna el mensaje en mayúsculas e invertido
 
-## License
+## Licencia
 
 MIT
